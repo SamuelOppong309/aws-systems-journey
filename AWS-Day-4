@@ -1,0 +1,22 @@
+
+ Day 4 — Data Flow Simulation
+
+Sample Data:
+
+Name: Samuel Oppong
+Email: [samuel@test.com](mailto:samuel@test.com)
+Order: Phone
+
+---
+
+System Flow:
+User → EC2 → RDS → EC2 → User
+
+---
+
+Explanation:
+A user enters their details and order information. The EC2 server receives this data and sends it to the RDS database for storage. When needed, the EC2 server retrieves the stored data from the database and returns it to the user.
+
+
+
+
